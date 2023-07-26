@@ -1,0 +1,284 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #F4F5EF;
+}
+body {
+    font-family: 'Karla', sans-serif;  }
+    span {
+        font-size: 1.3rem;
+    }
+
+  .graphic-1 {
+    left: 80px;
+    bottom: -70px;
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    /* Set the width of the container */
+    height: 400px;
+}
+
+
+.graphic-2 {
+    
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    right: 50px;
+    top: 120%;
+
+}
+
+
+
+
+.graphic-3 {
+    
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    /* Set the width of the container */
+    height: 400px;
+    left: 80px;
+    top: 190%;
+}
+
+.graphic-4 {
+    
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    /* Set the width of the container */
+    height: 400px;
+    right: 50px;
+    top: 301%;
+}
+
+
+
+  #logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 70px;
+
+}
+
+
+#logo .image {
+    object-fit: cover;
+    width: 350px;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+h6 {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+h3 {
+    margin-top: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+
+h5 {
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1px;
+}
+
+h4 {
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 70px;
+}
+
+p {
+    margin-left: 10px;
+    letter-spacing: 1px;
+    width: 600px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    width: 450px;
+    /* Set the width of the container */
+    height: 500px;
+    /* Set the height of the container */
+    padding: 10px;
+    /* Add some padding to create space around the image */
+    box-sizing: border-box;
+    /* Include the border and padding in the specified width and height */
+}
+
+.image-container img {
+    width: 100%;
+    /* Make the image fill the entire container horizontally */
+    height: 100%;
+    /* Make the image fill the entire container vertically */
+    object-fit: cover;
+    /* Maintain the aspect ratio of the image and cover the entire container */
+}
+
+.form {
+
+    text-align: center;
+    background-color: #9bcaba;
+    width: auto;
+    height: 400px;
+}
+
+.middel {
+    margin-bottom: 10px;
+
+}
+
+input.middel {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #9bcaba;
+    border-bottom: 1px solid black;
+}
+
+input.middel1 {
+    width: 620px;
+    height: 50px;
+    border: none;
+    background-color: #9bcaba;
+    border-bottom: 1px solid black;
+
+}
+input :focus{
+    outline: none;
+}
+
+.buttom {
+    color: #090000;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #9bcaba;
+    position: absolute;
+    right: 400px;
+    height: 30px;
+    width: 70px;
+    margin-top: 20px;
+}
+
+
+.form p:first-of-type
+{
+margin-bottom: 20px;
+padding-top:  20px;
+margin: 0 auto;
+width: fit-content;
+font-size: 20px;
+font-weight:bolder;
+}
+.form p{
+    margin-bottom: 20px;
+    padding-top:  20px;
+
+}
+#para{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    width: fit-content;
+}
+.space{
+margin-top: 50px;
+}
+.spaceBtween{
+
+    margin-right: 20px;
+}
+.footer{
+
+    height:150px ;
+}
+.footer p{
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 10px;
+ 
+}
+.social-media-icons{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+list-style: none;
+padding: 0;
+}
+.social-media-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-media-icons a {
+    color: #333;
+    font-size: 24px;
+
+  }
+  a{
+    color: #333;
+
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    p {
+        margin-left: 2px;
+        letter-spacing: 1px;
+        width: 0px;
+    }
+
+.container{
+    width: auto;
+    height: auto;
+
+}
+
+    .image-container {
+        width: 300px;
+        height: 300px;
+        padding: 1px;
+        box-sizing: border-box;
+    }
+    
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+    #logo .image {
+        object-fit: cover;
+        width: 350px;
+        margin-top: 1rem;
+        margin-bottom: 1px;
+    }
+}
+
