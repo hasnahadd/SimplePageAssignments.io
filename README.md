@@ -1,11 +1,10 @@
-# SimplePageAssignments
 # My Design with CSS and HTML
 I'm super excited to share my completed assignment with you all! For this particular challenge, 
 I've used CSS and HTML to craft a unique and visually stunning design. 
 It was quite a journey, and I learned a lot along the way.
 I faced some interesting challenges during the process, like figuring out the best way to align elements with flex
 # How to View My Design
-To view my index and interact with it, simply navigate [to the live demo link](URL).
+To view my index and interact with it, simply navigate [to the live demo link](https://hasnahadd.github.io/SimplePageAssignments.io/).
 You can also check out the code I wrote for this assignment in the index.html and styles.css files in the repository.
 # Feedback and Collaboration
 I would love to hear your thoughts and feedback on my design. As a community of designers, let's collaborate and grow together. 
